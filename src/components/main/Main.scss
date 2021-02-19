@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    &-content{
+        position: relative;
+        width: 100%;
+        height: calc(100vh - 73px);
+        &-body{
+            padding: 30px 10px;
+            overflow-y: auto;
+        }
+    }
+}

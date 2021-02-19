@@ -1,0 +1,10 @@
+.content-view{
+    overflow: auto;
+    max-height: 80vh;
+    height: 80vh;
+    &-show{
+        margin-top: 30px;
+        height: calc(100% - 100px);
+        width: 100%;
+    }
+}

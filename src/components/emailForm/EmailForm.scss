@@ -1,0 +1,60 @@
+.email-form{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    
+    &-body{
+        padding: 40px 15px 20px;
+        height: calc(100% - 60px);
+        &-form{
+            height: 100%;
+            form{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            &-text_inputs{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .input-content{
+                    width: 47%;
+                    input{
+                        margin: 14px 0;
+                    }
+                    &:last-child{
+                        width: 100%;
+                    }
+                }
+            }
+            &-radio{
+                margin: 40px 0;
+                input{
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-weight: 800;
+                    input{
+
+                    }
+                }
+            }
+            &-checkbox{
+                input{
+                    margin-right: 10px;
+                }
+            }
+            &-events{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-top: auto;
+                &-reset{
+                    margin-right: 20px;
+                    color: red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

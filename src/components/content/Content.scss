@@ -1,0 +1,25 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    &-img{
+        cursor: pointer;
+        img{
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+    &-bottom{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 20px;
+        &-name{
+            p{
+                margin: 0;
+                margin-right: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.category-info{
+    overflow: auto;
+    max-height: 80vh;
+    &-contents{
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-gap: 40px 30px;
+        margin-top: 30px;
+    }
+}

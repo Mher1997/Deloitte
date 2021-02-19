@@ -1,0 +1,24 @@
+.footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    &-container{
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        img{
+            width: 26px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+    &-left{
+
+    }
+    &-center{
+        display: flex;
+        >div{
+            margin: 0 60px;
+        }
+    }
+}

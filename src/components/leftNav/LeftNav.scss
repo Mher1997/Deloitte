@@ -1,0 +1,28 @@
+.left-nav{
+    height: calc(100vh - 73px);
+    width: 30%;
+    max-width: 350px;
+    border-right: 2px solid #817e7e;
+    margin-right: 20px;
+    &-content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        &-cat{
+            cursor: pointer;
+            padding: 14px 5px;
+            margin: 0;
+            border-bottom: 2px solid #817e7e;
+            color: #ffffff;
+            &.active{
+                background-color: #111111;
+            }
+            &:first-child{
+                border-top: 2px solid #817e7e;;
+            }
+            &:last-child{
+                border-bottom: none;
+            }
+        }
+    }
+}

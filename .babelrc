@@ -1,0 +1,10 @@
+{
+    "presets": [
+        "@babel/preset-react",
+        ["@babel/preset-env", { "modules": false }]
+    ],
+    "plugins": [
+        "@babel/plugin-transform-exponentiation-operator",
+        "@babel/plugin-proposal-class-properties"
+    ]
+}

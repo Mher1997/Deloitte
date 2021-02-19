@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 98%;
+    margin: 0 auto;
+}
+
+button, a{
+    cursor: pointer;
+    outline-style: none;
+}
+
+input{
+    &[type="checkbox"]{
+        cursor: pointer;
+    }
+    &[type="radio"]{
+        cursor: pointer;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+.txt-red{
+    color: red;
+}
+
+.txt-success{
+    color: #84ba23;
+}
+
+.btn-def{
+    height: 36px;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #4c4c4c;
+    &.green{
+        background-color: #84ba23;
+        &:disabled{
+            background-color: #e2e2e2;
+            cursor: unset;
+        }
+    }
+    &.blue{
+        background-color: #7ac0f8;
+        &:disabled{
+            background-color: #e2e2e2;
+            cursor: unset;
+        }
+    }
+}
